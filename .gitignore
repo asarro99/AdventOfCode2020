@@ -1,1 +1,8 @@
-/src/adventofcode2020/session.txt
+.idea/
+*.iml
+*.iws
+*.ipr
+out
+
+aoc_input
+session.txt
