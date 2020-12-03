@@ -25,9 +25,8 @@ public class Main {
     LocalDateTime time = LocalDateTime.now(ZoneId.of("Europe/Rome"));
     int dayOfMonth = time.getDayOfMonth();
 
-    if (time.getMonth() == Month.DECEMBER && dayOfMonth <= 25) {
-      runAll();
-      //run(dayOfMonth);
+    if (time.getMonth() == Month.DECEMBER && dayOfMonth <= 25 && time.getHour() >= 6) {
+      run(dayOfMonth);
     } else {
       runAll();
     }
