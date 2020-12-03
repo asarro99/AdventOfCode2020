@@ -10,7 +10,8 @@ import java.util.Map;
 @Value
 public class Coordinate {
   public static final Coordinate ZERO = new Coordinate(0, 0);
-  public int x, y;
+  public int x;
+  public int y;
 
   /**
    * The four cardinal directions, associated with degrees and relative x, y positions where NORTH
@@ -28,10 +29,11 @@ public class Coordinate {
     public final int y;
 
     public static Direction getDirection(int degrees) {
-      if (degrees < 0) degrees = 360 + degrees;
-      degrees %= 360;
+      int degree = degrees;
+      if (degree < 0) degree = 360 + degree;
+      degree %= 360;
       for (Direction direction : values()) {
-        if (direction.degrees == degrees) return direction;
+        if (direction.degrees == degree) return direction;
       }
 
       return Direction.NORTH;

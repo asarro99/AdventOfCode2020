@@ -6,7 +6,9 @@ import lombok.Value;
 @Value
 public class ZCoordinate {
   public static final ZCoordinate ZERO = new ZCoordinate(0, 0, 0);
-  public int x, y, z;
+  public int x;
+  public int y;
+  public int z;
 
   /**
    * Creates a new {@link ZCoordinate} based on the offset of x, y, and z given in parameters added
