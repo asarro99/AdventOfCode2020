@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/asarro99/AdventOfCode2020?style=flat-square)](https://github.com/asarro99/AdventOfCode2020/blob/master/LICENSE)
 ![Codacy grade](https://img.shields.io/codacy/grade/c4b1577655854d16aa5177fb8600c116?logo=codacy&style=flat-square)
 # AdventOfCode2020
-This repository serves to hold all the solutions and utilities that I will use for [Advent Of Code 2020](https://adventofcode.com/2020).
+This repository has the purpose to hold all the solutions and utilities that I will use for [Advent Of Code 2020](https://adventofcode.com/2020).
 The solutions are not the best or the most efficient. Proposals to improve them or other are always accepted.
 
 ### Running Days
