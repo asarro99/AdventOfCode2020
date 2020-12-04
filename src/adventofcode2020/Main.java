@@ -26,8 +26,7 @@ public class Main {
     int dayOfMonth = time.getDayOfMonth();
 
     if (time.getMonth() == Month.DECEMBER && dayOfMonth <= 25 && time.getHour() >= 6) {
-      runAll();
-      //run(dayOfMonth);
+      run(dayOfMonth);
     } else {
       runAll();
     }

@@ -35,7 +35,7 @@ the server, they are stored in a dedicated file in the `aoc_input` directory.
 | ✔ [Day 1: Report Repair](https://github.com/asarro99/AdventOfCode2020/tree/master/src/adventofcode2020/days/day01)| 🌟 | 🌟 |
 | ✔ [Day 2: Password Philosophy](https://github.com/asarro99/AdventOfCode2020/tree/master/src/adventofcode2020/days/day02)| 🌟 | 🌟 |
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/asarro99/AdventOfCode2020/tree/master/src/adventofcode2020/days/day03)| 🌟 | 🌟 |
-| [Day 4: Passport Processing](https://github.com/asarro99/AdventOfCode2020/tree/master/src/adventofcode2020/days/day04)| | |
+| ✔ [Day 4: Passport Processing](https://github.com/asarro99/AdventOfCode2020/tree/master/src/adventofcode2020/days/day04)| 🌟 | 🌟 |
 | [Day 5: TBD]()| | |
 | [Day 6: TBD]()| | |
 | [Day 7: TBD]()| | |
