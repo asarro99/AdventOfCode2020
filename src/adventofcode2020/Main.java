@@ -26,7 +26,8 @@ public class Main {
     int dayOfMonth = time.getDayOfMonth();
 
     if (time.getMonth() == Month.DECEMBER && dayOfMonth <= 25 && time.getHour() >= 6) {
-      run(dayOfMonth);
+      runAll();
+      //run(dayOfMonth);
     } else {
       runAll();
     }
@@ -39,7 +40,7 @@ public class Main {
    */
   private static void run(int dayOfMonth) {
     try {
-      Class<?> clazz = Class.forName(BASE_PACKAGE + "Day" + pad(dayOfMonth));
+      Class<?> clazz = Class.forName(BASE_PACKAGE + "day" + pad(dayOfMonth) + "." + "Day" + pad(dayOfMonth));
       System.out.println("Day " + dayOfMonth + ":");
       ((Day) clazz.getDeclaredConstructor().newInstance()).run();
     } catch (ClassNotFoundException ignored) {

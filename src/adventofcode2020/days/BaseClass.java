@@ -14,5 +14,7 @@ public class BaseClass extends Day {
   }
 
   @Override
-  protected void parse() {}
+  protected void parse() {
+
+  }
 }

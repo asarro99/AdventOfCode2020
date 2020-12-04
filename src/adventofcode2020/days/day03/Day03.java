@@ -1,4 +1,4 @@
-package adventofcode2020.days;
+package adventofcode2020.days.day03;
 
 import adventofcode2020.templates.Day;
 

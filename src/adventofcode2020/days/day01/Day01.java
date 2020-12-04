@@ -1,4 +1,4 @@
-package adventofcode2020.days;
+package adventofcode2020.days.day01;
 
 import adventofcode2020.templates.SeparatedDay;
 import adventofcode2020.utility.ListConvert;
